@@ -68,5 +68,3 @@ rpm-ostree --idempotent install \
 # Example for enabling a System Unit File
 systemctl enable podman.socket
 sudo systemctl disable tailscaled.service
-
-sed -i 's/Exec=sway/Exec="QT_QPA_PLATFORM=wayland QT_QPA_PLATFORMTHEME=qt6ct QT_STYLE_OVERRIDE=kvantum GTK_THEME=Catppuccin-Mocha-Standard-Flamingo-Dark sway"/g' /usr/share/wayland-sessions/sway.desktop
