@@ -5,7 +5,7 @@ on:
     branches:
       - wmaurora
   schedule:
-    - cron: "05 10 * * *" # 10:05am UTC everyday
+    - cron: "00 08 * * *" # 10:05am UTC everyday
   push:
     branches:
       - wmaurora
