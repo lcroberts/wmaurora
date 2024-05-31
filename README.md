@@ -1,6 +1,6 @@
 # wmaurora
 
-[![build-wmaurora](https://github.com/lcroberts/wm-ublue-derivatives/actions/workflows/build_wmaurora.yml/badge.svg)](https://github.com/lcroberts/wm-ublue-derivatives/actions/workflows/build_wmaurora.yml)
+[![build-wmaurora](https://github.com/lcroberts/wmaurora/actions/workflows/build.yml/badge.svg)](https://github.com/lcroberts/wmaurora/actions/workflows/build.yml)
 
 # Purpose
 
