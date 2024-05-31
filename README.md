@@ -4,7 +4,7 @@
 
 # Purpose
 
-This branch of the repo is intended to be a personal derivative of [Aurora](https://getaurora.dev/) and is built from the template found [here](https://github.com/ublue-os/image-template). It has added window manager stuff on top of the existing Aurora image to make it fit my workflow out of the box. It also includes some other features that I need such as Japanese input and some theming utilities. There is also a branch that serves as a derivative of [Bazzite.](https://bazzite.gg/)
+This branch of the repo is intended to be a personal derivative of [Aurora](https://getaurora.dev/) and is built from the template found [here](https://github.com/ublue-os/image-template). It has added window manager stuff on top of the existing Aurora image to make it fit my workflow out of the box. It also includes some other features that I need such as Japanese input and some theming utilities. There is also a repo that serves as a derivative of [Bazzite.](https://bazzite.gg/)
 
 # How to Use
 
