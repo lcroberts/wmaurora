@@ -68,3 +68,7 @@ rpm-ostree --idempotent install \
 # Example for enabling a System Unit File
 systemctl enable podman.socket
 sudo systemctl disable tailscaled.service
+
+curl -Lo /usr/bin/kmonad https://github.com/kmonad/kmonad/releases/latest/download/kmonad
+chmod +x /usr/bin/kmonad
+curl -Lo /usr/share/ublue-os/just/60-custom.just https://raw.githubusercontent.com/lcroberts/wmbaurora/main/custom.just
