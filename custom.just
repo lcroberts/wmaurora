@@ -9,4 +9,4 @@ kmonad-setup:
 	mkdir -p $HOME/.config/systemd/user
 	curl -Lo $HOME/.config/systemd/user/kmonad@.service https://raw.githubusercontent.com/kmonad/kmonad/master/startup/kmonad%40.service
 	echo "Reboot for uinput rules and groups to apply"
-	echo "To enable enable the kmonad systemd sercie run 'systemctl --user enable kmonad'"
+	echo -e "To enable enable the kmonad systemd service run 'systemctl --user enable kmonad@\033[31mconfig-name\033[m'"
