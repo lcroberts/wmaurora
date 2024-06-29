@@ -10,4 +10,4 @@ kmonad-setup:
 	sudo ln -sT $HOME/.config/kmonad /etc/kmonad
 
 	echo "Reboot for uinput rules and groups to apply"
-	echo -e "To enable enable the kmonad systemd service run 'systemctl --user enable kmonad@\033[31mconfig-name\033[m'"
+	echo -e "To enable enable the kmonad systemd service run 'sudo systemctl enable kmonad@\033[31mconfig-name\033[m'"
