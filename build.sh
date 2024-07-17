@@ -67,6 +67,10 @@ rpm-ostree --idempotent install \
     blueman \
     kitty # For until wezterm wayland stuff is fixed
 
+# Cosmic
+curl -Lo /etc/yum.repos.d/_copr_ryanabx-cosmic.repo https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-"${RELEASE}"/ryanabx-cosmic-epoch-fedora-"${RELEASE}".repo
+rpm-ostree --idempotent install cosmic-desktop
+
 # Example for enabling a System Unit File
 systemctl enable podman.socket
 sudo systemctl disable tailscaled.service
