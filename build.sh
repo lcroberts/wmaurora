@@ -26,10 +26,7 @@ rpm-ostree --idempotent install \
     qt5ct \
     onedrive \
     zathura \
-    zathura-pdf-mupdf \
-    zathura-djvu \
-    zathura-ps \
-    zathura-cb \
+    zathura-plugins-all \
     fcitx5 \
     fcitx5-configtool \
     fcitx5-gtk \
@@ -68,12 +65,18 @@ rpm-ostree --idempotent install \
     kitty # For until wezterm wayland stuff is fixed
 
 # Cosmic
-curl -Lo /etc/yum.repos.d/_copr_ryanabx-cosmic.repo https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-"${RELEASE}"/ryanabx-cosmic-epoch-fedora-"${RELEASE}".repo
-rpm-ostree --idempotent install cosmic-desktop
+# curl -Lo /etc/yum.repos.d/_copr_ryanabx-cosmic.repo https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-"${RELEASE}"/ryanabx-cosmic-epoch-fedora-"${RELEASE}".repo
+# rpm-ostree --idempotent install cosmic-desktop
+
+# Proton vpn
+wget "https://repo.protonvpn.com/fedora-$RELEASE-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.1-2.noarch.rpm"
+rpm-ostree install ./protonvpn-stable*.rpm
+rpm-ostree install proton-vpn-gnome-desktop
 
 # Example for enabling a System Unit File
 systemctl enable podman.socket
 sudo systemctl disable tailscaled.service
+systemctl disable btrfs-dedup@var-home.timer
 
 curl -Lo /usr/bin/kmonad https://github.com/kmonad/kmonad/releases/latest/download/kmonad
 chmod +x /usr/bin/kmonad
