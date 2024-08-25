@@ -36,6 +36,7 @@ rpm-ostree --idempotent install \
     eza \
     ripgrep \
     zoxide \
+    trash-cli \
     tmux \
     tokei \
     iotop \
