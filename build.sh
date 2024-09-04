@@ -64,6 +64,7 @@ rpm-ostree --idempotent install \
     kanshi \
     pavucontrol \
     blueman \
+    wireshark \
     kitty # For until wezterm wayland stuff is fixed
 
 # Cosmic
