@@ -64,8 +64,8 @@ rpm-ostree --idempotent install \
     kanshi \
     pavucontrol \
     blueman \
-    wireshark \
     kitty # For until wezterm wayland stuff is fixed
+# wireshark \
 
 # Cosmic
 # curl -Lo /etc/yum.repos.d/_copr_ryanabx-cosmic.repo https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-"${RELEASE}"/ryanabx-cosmic-epoch-fedora-"${RELEASE}".repo
