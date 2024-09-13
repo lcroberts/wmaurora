@@ -57,7 +57,6 @@ rpm-ostree --idempotent install \
     swww \
     aylurs-gtk-shell \
     fd-find \
-    polkit-gnome \
     network-manager-applet \
     wl-clipboard \
     brightnessctl \
