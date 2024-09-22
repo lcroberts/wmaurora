@@ -14,6 +14,7 @@ curl -Lo /etc/yum.repos.d/_copr_wezfurlong-wezterm.repo https://copr.fedorainfra
 # this installs a package from fedora repos
 rpm-ostree --idempotent install \
     gnome-icon-theme \
+    NetworkManager-openvpn \
     adobe-source-han-sans-jp-fonts \
     adobe-source-han-serif-jp-fonts \
     mozilla-fira-mono-fonts \
