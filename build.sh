@@ -28,6 +28,7 @@ rpm-ostree --idempotent install \
     qt5ct \
     onedrive \
     zathura \
+    kitty \
     imv \
     zathura-plugins-all \
     fcitx5 \
@@ -38,6 +39,7 @@ rpm-ostree --idempotent install \
     neovim \
     eza \
     ripgrep \
+    fd-find \
     zoxide \
     trash-cli \
     tmux \
@@ -48,24 +50,23 @@ rpm-ostree --idempotent install \
     direnv \
     stow
 
-# Hyprland Stuff
-rpm-ostree --idempotent install \
-    hyprland \
-    hyprland-contrib \
-    hyprpicker \
-    hyprlock \
-    hypridle \
-    swww \
-    aylurs-gtk-shell \
-    fd-find \
-    network-manager-applet \
-    wl-clipboard \
-    brightnessctl \
-    playerctl \
-    kanshi \
-    pavucontrol \
-    blueman \
-    kitty # For until wezterm wayland stuff is fixed
+# # Hyprland Stuff
+# rpm-ostree --idempotent install \
+#     hyprland \
+#     hyprland-contrib \
+#     hyprpicker \
+#     hyprlock \
+#     hypridle \
+#     swww \
+#     aylurs-gtk-shell \
+#     network-manager-applet \
+#     wl-clipboard \
+#     brightnessctl \
+#     playerctl \
+#     kanshi \
+#     pavucontrol \
+#     blueman \
+#     kitty # For until wezterm wayland stuff is fixed
 
 # Cosmic
 curl -Lo /etc/yum.repos.d/_copr_ryanabx-cosmic.repo https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-"${RELEASE}"/ryanabx-cosmic-epoch-fedora-"${RELEASE}".repo
